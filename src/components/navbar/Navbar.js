@@ -19,6 +19,10 @@ const Navbar = () => (
           <NavLink to="/" exact className="menu_item">
             Rockets
           </NavLink>
+          <div className="border" />
+          <NavLink to="/missions" exact className="menu_item">
+            Missions
+          </NavLink>
 
           <div className="border" />
           <NavLink to="/profiles" className="menu_item">
