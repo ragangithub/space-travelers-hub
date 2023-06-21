@@ -4,8 +4,6 @@ import {
   isRejectedWithValue,
 } from '@reduxjs/toolkit';
 
-// import axios from "axios";
-
 const url = 'https://api.spacexdata.com/v3/missions';
 
 const initialState = {
@@ -15,13 +13,6 @@ const initialState = {
 export const getMissions = createAsyncThunk(
   'missions/getMissions',
   async () => {
-    // try {
-    //   const response = await axios.get(url);
-    //   return response.data;
-    // } catch (error) {
-    //   return isRejectedWithValue(error.message);
-    // }
-
     try {
       const response = await fetch(`${url}`);
       const missions = await response.json();

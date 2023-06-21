@@ -11,13 +11,6 @@ const initialState = {
 };
 
 export const getRockets = createAsyncThunk('rockets/getRockets', async () => {
-  // try {
-  //   const response = await axios.get(url);
-  //   return response.data;
-  // } catch (error) {
-  //   return isRejectedWithValue(error.message);
-  // }
-
   try {
     const response = await fetch(`${url}`);
     const rockets = await response.json();

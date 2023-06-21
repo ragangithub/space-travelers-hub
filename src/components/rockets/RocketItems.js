@@ -18,9 +18,6 @@ const RocketItems = ({ rocket }) => {
         <div>
           {rocket.reserved && <p className="reserved_sign">Reserved</p>}
 
-          {/* <p className={`reserved_sign ${rocket.reserved ? "show" : "hide"}`}>
-            Reserved
-          </p> */}
           <p>{rocket.description}</p>
         </div>
         <button
