@@ -1,16 +1,16 @@
-import React from 'react';
-import { render } from '@testing-library/react';
+import renderer from 'react-test-renderer';
+import { MemoryRouter } from 'react-router-dom';
 
-import { BrowserRouter } from 'react-router-dom';
 import Navbar from '../components/navbar/Navbar';
 
-describe('Navbar component', () => {
-  test('renders correctly', () => {
-    const { container } = render(
-      <BrowserRouter>
+it('test navbar render', () => {
+  const tree = renderer
+    .create(
+      <MemoryRouter>
         <Navbar />
-      </BrowserRouter>,
-    );
-    expect(container).toMatchSnapshot();
-  });
+      </MemoryRouter>,
+    )
+    .toJSON();
+
+  expect(tree).toMatchSnapshot();
 });
