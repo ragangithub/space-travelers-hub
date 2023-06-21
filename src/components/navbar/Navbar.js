@@ -20,7 +20,7 @@ const Navbar = () => (
             Rockets
           </NavLink>
           <div className="border" />
-          <NavLink to="/missions" exact className="menu_item">
+          <NavLink to="/mission" exact className="menu_item">
             Missions
           </NavLink>
 
