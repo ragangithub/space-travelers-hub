@@ -1,84 +1,84 @@
 .missionContainer {
-    margin: 1rem 5rem 1rem 5rem;
-  }
-  
-  .missions {
-    width: 100%;
-  }
-  
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  th {
-    border: 1px solid #8d8a8a;
-    text-align: left;
-    padding: 8px;
-    font-size: 1.2rem;
-  }
-  
-  td {
-    border: 1px solid #8d8a8a;
-    text-align: left;
-    justify-content: flex-start;
-    padding: 8px;
-  }
-  
-  td:nth-child(1) {
-    font-size: 1.2rem;
-    font-weight: 700;
-  }
-  
-  td:nth-child(3) {
-    width: 10rem;
-    text-align: center;
-  }
-  
-  tr:nth-child(even) {
-    background-color: rgb(231, 229, 229);
-  }
-  
-  .mission_name {
-    width: 200px;
-  }
-  
-  .mission_description {
-    width: 60%;
-  }
-  
-  .member-badge {
-    padding: 0.2rem;
-    margin-right: 0.4rem;
-    text-align: center;
-    font-size: 0.8rem;
-    font-weight: bold;
-    color: #fff;
-    border-radius: 0.2rem;
-    letter-spacing: 0.1rem;
-    background-color: #8d8a8a;
-  }
-  
-  .active-mission {
-    background-color: #579bb1;
-  }
-  
-  .joinBtn {
-    padding: 0.6rem;
-    font-size: 1rem;
-    color: #8d8a8a;
-    background-color: #f5f4f4;
-    border: 0.1rem solid #8d8a8a;
-    border-radius: 0.23rem;
-    cursor: pointer;
-  }
-  
-  .leaveBtn {
-    padding: 0.6rem;
-    font-size: 1rem;
-    color: red;
-    background-color: #fff;
-    border: 0.1rem solid red;
-    border-radius: 0.23rem;
-    cursor: pointer;
-  }
+  margin: 1rem 5rem 1rem 5rem;
+}
+
+.missions {
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  border: 1px solid #8d8a8a;
+  text-align: left;
+  padding: 8px;
+  font-size: 1.2rem;
+}
+
+td {
+  border: 1px solid #8d8a8a;
+  text-align: left;
+  justify-content: flex-start;
+  padding: 8px;
+}
+
+td:nth-child(1) {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+td:nth-child(3) {
+  width: 10rem;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(231, 229, 229);
+}
+
+.mission_name {
+  width: 200px;
+}
+
+.mission_description {
+  width: 60%;
+}
+
+.member-badge {
+  padding: 0.2rem;
+  margin-right: 0.4rem;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 0.2rem;
+  letter-spacing: 0.1rem;
+  background-color: #8d8a8a;
+}
+
+.active-mission {
+  background-color: #579bb1;
+}
+
+.joinBtn {
+  padding: 0.6rem;
+  font-size: 1rem;
+  color: #8d8a8a;
+  background-color: #f5f4f4;
+  border: 0.1rem solid #8d8a8a;
+  border-radius: 0.23rem;
+  cursor: pointer;
+}
+
+.leaveBtn {
+  padding: 0.6rem;
+  font-size: 1rem;
+  color: red;
+  background-color: #fff;
+  border: 0.1rem solid red;
+  border-radius: 0.23rem;
+  cursor: pointer;
+}

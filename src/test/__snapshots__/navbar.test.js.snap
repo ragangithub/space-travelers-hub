@@ -1,61 +1,64 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Navbar component renders correctly 1`] = `
-<div>
-  <nav
-    class="navBar"
+exports[`test navbar render 1`] = `
+<nav
+  className="navBar"
+>
+  <div
+    className="logo_title"
   >
-    <div
-      class="logo_title"
+    <a
+      aria-current="page"
+      className="active"
+      exact={true}
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="logo"
+        className="logo"
+        src="logo.png"
+      />
+    </a>
+    <a
+      className="title"
+      href="#home"
+    >
+      Space Travelers' Hub
+    </a>
+  </div>
+  <div
+    className="navItems"
+  >
+    <ul
+      className="navLinks"
     >
       <a
         aria-current="page"
-        class="active"
+        className="menu_item active"
         href="/"
+        onClick={[Function]}
       >
-        <img
-          alt="logo"
-          class="logo"
-          src="logo.png"
-        />
+        Rockets
       </a>
       <a
-        class="title"
-        href="#home"
+        className="menu_item"
+        href="/mission"
+        onClick={[Function]}
       >
-        Space Travelers' Hub
+        Missions
       </a>
-    </div>
-    <div
-      class="navItems"
-    >
-      <ul
-        class="navLinks"
+      <div
+        className="border"
+      />
+      <a
+        className="menu_item"
+        href="/profiles"
+        onClick={[Function]}
       >
-        <a
-          aria-current="page"
-          class="menu_item active"
-          href="/"
-        >
-          Rockets
-        </a>
-        <a
-          class="menu_item"
-          href="/mission"
-        >
-          Missions
-        </a>
-        <div
-          class="border"
-        />
-        <a
-          class="menu_item"
-          href="/profiles"
-        >
-          My Profile
-        </a>
-      </ul>
-    </div>
-  </nav>
-</div>
+        My Profile
+      </a>
+    </ul>
+  </div>
+</nav>
 `;
