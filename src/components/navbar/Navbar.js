@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 import logo from '../../assets/logo.png';
+import '../../styles/navbar.css';
 
 const Navbar = () => (
   <>
@@ -19,7 +20,7 @@ const Navbar = () => (
           <NavLink to="/" exact className="menu_item">
             Rockets
           </NavLink>
-          <div className="border" />
+
           <NavLink to="/mission" exact className="menu_item">
             Missions
           </NavLink>
