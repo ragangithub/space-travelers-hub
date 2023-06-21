@@ -1,0 +1,66 @@
+.profile_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 30px 75px;
+}
+
+.reserved_rockets,
+.myMissions,
+.reserved-dragons {
+  width: 50%;
+}
+
+ul {
+  padding: 0;
+}
+
+.rockets_container,
+.dragons-list {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+
+.item {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.missions_container li {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+  list-style: none;
+}
+
+.rockets_container li:last-child {
+  border-bottom: none;
+}
+
+.myMissionsList {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+
+.missions_container li:last-child {
+  border-bottom: none;
+}
+
+.left_padding {
+  padding-left: 20px;
+}
+
+.none {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.exist {
+  margin-top: 30px;
+}

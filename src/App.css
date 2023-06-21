@@ -1,3 +1,9 @@
-.App {
-  padding: 10px;
+.hide {
+  display: none;
+  cursor: pointer;
+}
+
+.show {
+  display: block;
+  cursor: pointer;
 }

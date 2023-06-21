@@ -4,6 +4,7 @@ import '../../App.css';
 import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
 import { reserve, cancelReserve } from '../../redux/rockets/rocketsSlice';
+import '../../styles/rocket.css';
 
 const RocketItems = ({ rocket }) => {
   const dispatch = useDispatch();
