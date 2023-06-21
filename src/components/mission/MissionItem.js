@@ -3,6 +3,7 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
 import { joinMission, leaveMission } from '../../redux/missions/missionSlice';
+import '../../styles/mission.css';
 
 const MissionItem = ({ mission }) => {
   const dispatch = useDispatch();
