@@ -49,9 +49,12 @@ HTML, CSS, and React
 - **Book Rockets**
 - **Join Missions**
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
+### Live Demo
+[Click Here](https://space-travelers-8rhh.onrender.com/)
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
