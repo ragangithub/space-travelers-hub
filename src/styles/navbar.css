@@ -1,0 +1,51 @@
+.navBar {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px;
+  border-bottom: #d3cdcd 1px solid;
+  padding: 10px;
+}
+
+.logo_title {
+  display: flex;
+}
+
+.logo {
+  width: 75px;
+  height: 50px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #000;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.navLinks {
+  display: flex;
+  gap: 80px;
+}
+
+.border {
+  border: 2px solid;
+  background-color: #d3cdcd;
+  color: #d3cdcd;
+}
+
+.menu_item {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(36, 127, 247);
+  text-decoration: none;
+}
+
+.active {
+  text-decoration: underline;
+}
