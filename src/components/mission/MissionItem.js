@@ -51,7 +51,7 @@ MissionItem.propTypes = {
     name: PropTypes.string.isRequired,
 
     description: PropTypes.string.isRequired,
-    joined: PropTypes.string,
+    joined: PropTypes.bool,
   }).isRequired,
 };
 

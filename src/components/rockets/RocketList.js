@@ -20,7 +20,7 @@ RocketList.propTypes = {
       rocketName: PropTypes.string.isRequired,
       description: PropTypes.string.isRequired,
 
-      reserved: PropTypes.string,
+      reserved: PropTypes.bool,
     }),
   ).isRequired,
 };
