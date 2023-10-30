@@ -49,12 +49,11 @@ HTML, CSS, and React
 - **Book Rockets**
 - **Join Missions**
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Live Demo
-[Click Here](https://space-travelers-8rhh.onrender.com/)
 
+[Click Here](https://space-travelers-8rhh.onrender.com/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -111,9 +110,9 @@ You can deploy this project using:
 
 👤 **Ragan Hailu**
 
-- GitHub: [@ragangithub](https://github.com/FevenSeyfu)
+- GitHub: [@ragangithub](https://github.com/ragangithub)
 
-- LinkedIn: [@raganhailu](https://www.linkedin.com/in/FevenSeyfu/)
+- LinkedIn: [@raganhailu](https://www.linkedin.com/in/raganhailu/)
 
 👤 **Alishah**
 
