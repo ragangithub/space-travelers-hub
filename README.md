@@ -31,7 +31,7 @@
 
 # 📖 Space Travelers' Hub<a name="about-project"></a>
 
-Space Travelers' Hub is a web application that allows users to book rockets , and join selected space missions.
+Space Travelers' Hub is a web application that allows users to book rockets,and join selected space missions.
 
 ## 🛠 Built With <a name="built-with"></a>
 
