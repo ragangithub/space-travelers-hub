@@ -35,7 +35,7 @@ Space Travelers' Hub is a web application that allows users to book rockets,and 
 
 ## 🛠 Built With <a name="built-with"></a>
 
-HTML, CSS, React and GitHub pages
+HTML, CSS, React and GitHub pages.
 
 ### Tech Stack <a name="tech-stack"></a>
 
